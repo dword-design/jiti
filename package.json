@@ -1,6 +1,6 @@
 {
-  "name": "jiti",
-  "version": "1.16.0",
+  "name": "@dword-design/jiti",
+  "version": "0.0.1",
   "description": "Runtime typescript and ESM support for Node.js (CommonJS)",
   "repository": "unjs/jiti",
   "license": "MIT",
@@ -12,6 +12,9 @@
     "dist",
     "register.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "pnpm clean && cross-env NODE_ENV=production pnpm webpack",
     "clean": "rm -rf dist",
