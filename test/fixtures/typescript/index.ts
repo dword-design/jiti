@@ -1,4 +1,10 @@
-import test, { FeedService } from './test'
-export type { Test } from './types'
+import test, { FeedService } from "./test";
+import Clazz from "./decorators";
+import { test as satisfiesTest } from "./satisfies";
+import { child } from "./parent.mjs";
 
-console.log(test(), FeedService)
+export type { Test } from "./types";
+
+console.log(test(), FeedService, Clazz);
+console.log(satisfiesTest());
+console.log(child());

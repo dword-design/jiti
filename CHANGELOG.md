@@ -2,6 +2,100 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v1.18.2
+
+[compare changes](https://github.com/unjs/jiti/compare/v1.17.2...v1.18.1)
+
+
+### 🚀 Enhancements
+
+  - Allow resolving `.ts` files with `.js` extension ([#128](https://github.com/unjs/jiti/pull/128))
+  - Support `import.meta.env` ([#129](https://github.com/unjs/jiti/pull/129))
+
+### 🔥 Performance
+
+  - Use extension resolutions only for parent typescript files ([27a9888](https://github.com/unjs/jiti/commit/27a9888))
+
+### 🩹 Fixes
+
+  - Handle parretns with `c ([mts` extension too](https://github.com/unjs/jiti/commit/mts` extension too))
+
+### 🏡 Chore
+
+  - Update lockfile ([e91d3a1](https://github.com/unjs/jiti/commit/e91d3a1))
+
+### ❤️  Contributors
+
+- Pooya Parsa ([@pi0](http://github.com/pi0))
+- Db3f994 <Pooya Parsa>
+- Guillaume Chau ([@Akryum](http://github.com/Akryum))
+
+## v1.17.2
+
+[compare changes](https://github.com/unjs/jiti/compare/v1.17.1...v1.17.2)
+
+
+### 🩹 Fixes
+
+  - Add support to emit decorator metadata ([#119](https://github.com/unjs/jiti/pull/119))
+  - Use inline require cache to avoid circular dependencies ([#125](https://github.com/unjs/jiti/pull/125))
+  - Workaround for pnpm and `TMPDIR` ([#123](https://github.com/unjs/jiti/pull/123))
+
+### 🏡 Chore
+
+  - Update lockfile ([6f8610f](https://github.com/unjs/jiti/commit/6f8610f))
+  - Update release script ([26b7003](https://github.com/unjs/jiti/commit/26b7003))
+
+### ✅ Tests
+
+  - Add typescript satisfies fixture ([#107](https://github.com/unjs/jiti/pull/107))
+
+### 🎨 Styles
+
+  - Format with prettier ([42669e5](https://github.com/unjs/jiti/commit/42669e5))
+
+### ❤️  Contributors
+
+- Pooya Parsa ([@pi0](http://github.com/pi0))
+- Jonas Thelemann ([@dargmuesli](http://github.com/dargmuesli))
+- Sabin Marcu ([@sabinmarcu](http://github.com/sabinmarcu))
+- Peter <peter.placzek1996@gmail.com>
+
+## v1.17.1
+
+[compare changes](https://github.com/unjs/jiti/compare/v1.17.0...v1.17.1)
+
+
+### 🩹 Fixes
+
+  - Prefer `require` condition first in esm resolve mode ([#117](https://github.com/unjs/jiti/pull/117))
+
+### 💅 Refactors
+
+  - Use `mkdirSync` from `node:fs` instead of `mkdirp` ([413d3c3](https://github.com/unjs/jiti/commit/413d3c3))
+
+### 🏡 Chore
+
+  - Update dependencies ([f532c57](https://github.com/unjs/jiti/commit/f532c57))
+  - Add missing semi ([a9c2876](https://github.com/unjs/jiti/commit/a9c2876))
+  - Switch to changelogen for releases ([bd4bd8c](https://github.com/unjs/jiti/commit/bd4bd8c))
+
+### ❤️  Contributors
+
+- Pooya Parsa <pooya@pi0.io>
+
+## [1.17.0](https://github.com/unjs/jiti/compare/v1.16.2...v1.17.0) (2023-02-08)
+
+
+### Features
+
+* add support for `.mts` ([#112](https://github.com/unjs/jiti/issues/112)) ([94ab3f2](https://github.com/unjs/jiti/commit/94ab3f2bb03e5805ff97927579a1729e6eeaa8e5))
+* support import assertions and `.json` imports with `.default` property ([#114](https://github.com/unjs/jiti/issues/114)) ([08a9a47](https://github.com/unjs/jiti/commit/08a9a47daa6ba0fb0f2ced285703dcc446ef8375))
+
+### [1.16.2](https://github.com/unjs/jiti/compare/v1.16.1...v1.16.2) (2023-01-10)
+
+### [1.16.1](https://github.com/unjs/jiti/compare/v1.16.0...v1.16.1) (2023-01-03)
+
 ## [1.16.0](https://github.com/unjs/jiti/compare/v1.15.0...v1.16.0) (2022-09-19)
 
 
