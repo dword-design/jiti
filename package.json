@@ -1,6 +1,6 @@
 {
-  "name": "jiti",
-  "version": "1.18.2",
+  "name": "@dword-design/jiti",
+  "version": "0.0.2",
   "description": "Runtime typescript and ESM support for Node.js",
   "repository": "unjs/jiti",
   "license": "MIT",
@@ -12,6 +12,9 @@
     "dist",
     "register.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "pnpm clean && cross-env NODE_ENV=production pnpm webpack",
     "clean": "rm -rf dist",
@@ -76,5 +79,10 @@
     "webpack": "^5.83.1",
     "webpack-cli": "^5.1.1"
   },
-  "packageManager": "pnpm@8.5.1"
+  "packageManager": "pnpm@8.5.1",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.4",
+    "babel-plugin-transform-import-meta": "^2.2.0",
+    "lodash": "^4.17.21"
+  }
 }
