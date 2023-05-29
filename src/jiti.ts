@@ -237,7 +237,6 @@ export default function createJITI(
         legacy: opts.legacy,
         ...opts.transformOptions,
         babel: {
-          filename: topts.filename,
           ...(opts.sourceMaps
             ? {
                 sourceFileName: topts.filename,
